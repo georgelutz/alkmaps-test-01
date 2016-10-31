@@ -19,7 +19,7 @@ $(document).ready(function () {
                 } else {
                     input.prev('span').css('visibility', 'hidden');
                 }
-            }, 0);
+            }, 0); 
         };
 
         function resetField() {
