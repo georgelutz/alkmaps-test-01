@@ -6,7 +6,7 @@ $(document).ready(function () {
     map = new ALKMaps.Map('map', { displayProjection: new ALKMaps.Projection("EPSG:4326") });
     init();
 
-    function init() {
+    function init() { 
         var lon, lat, zoom;
         var mapregion = $("input:radio[name=region]:checked").val();
         var style = $("#mapStyles option:selected").val();
